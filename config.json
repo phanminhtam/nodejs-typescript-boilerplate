@@ -1,6 +1,0 @@
-{
-	"name": "Nodejs typescript boilerplate",
-	"port": 3000,
-	"env": "development",
-	"secret": "XFZ34abo2fCiz8NbZv2rE0eCmxyW2GBa"
-}

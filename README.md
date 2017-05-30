@@ -50,8 +50,8 @@ tsconfig.json
 
 - Install libs
 ```
-npm install --save express body-parser morgan cors lodash moment express-validator
-npm install --save-dev @types/node @types/express @types/body-parser @types/cors @types/morgan @types/lodash @types/moment gulp del gulp-merge-json
+> npm install --save express body-parser morgan cors lodash moment express-validator
+> npm install --save-dev @types/node @types/express @types/body-parser @types/cors @types/morgan @types/lodash @types/moment gulp del gulp-merge-json
 
 ```
 
@@ -77,7 +77,12 @@ ROOT
 ```
 
 ### II. Run
-1. Build
+1. Install package
+```
+> npm install
+```
+
+2. Build
 ```
 > npm run build OR npm run build --env=development
 > npm run build --env=production
@@ -87,7 +92,8 @@ Note
 * use gulp tasks
 * template: npm run build --env=[name-env]
 ```
-2. Run
+
+3. Run
 ```
 > npm start
 ```
