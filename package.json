@@ -1,0 +1,48 @@
+{
+  "name": "nodejs-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Nodejs typescript boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build; tsc",
+    "rebuild": "gulp re-build; tsc",
+    "start": "node index",
+    "release": "gulp re-build --env=production; tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phanminhtam/nodejs-typescript-boilerplate.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "typescript",
+    "boilerplate"
+  ],
+  "author": "Tam Phan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phanminhtam/nodejs-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/phanminhtam/nodejs-typescript-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "express-validator": "^3.2.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/cors": "^2.8.1",
+    "@types/express": "^4.0.35",
+    "@types/lodash": "^4.14.64",
+    "@types/moment": "^2.13.0",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^7.0.22",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-merge-json": "^1.0.0"
+  }
+}
