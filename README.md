@@ -3,6 +3,7 @@
 ### Prepare
 1. Install [nodejs](https://nodejs.org/en/)
 2. Install [typescript](https://www.typescriptlang.org/)
+3. TIP: you should use [Visual Studio Code](https://code.visualstudio.com/)
 
 ### I. Install
 ```
@@ -54,7 +55,7 @@ npm install --save-dev @types/node @types/express @types/body-parser @types/cors
 
 ```
 
-- Then create folder and files folow structor
+- Then create folder and files folow structure
 ```
 ROOT
 |-- asset (optional - content public file: css, js, image)
